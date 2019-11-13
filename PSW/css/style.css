@@ -119,3 +119,29 @@ body {
 }
 
 }
+
+darkmode--activated p{
+  color: #fff
+  mix-blend-mode: difference  x;
+}
+.footer{
+  background: #f2f2f2;
+  color:black;
+}
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:black;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .locationz{
+    i{font-size: 18px;}
+  }
+  .copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
+  } 
+  .kiri{
+    margin-right: 12px;
+  }
